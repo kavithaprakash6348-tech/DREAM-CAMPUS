@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Smart College Recommendation Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#">Top Colleges</a>
+        <a href="#">Compare</a>
+        <a href="#">About</a>
+
+    </nav>
+
+    <header>
+
+      <h1>🎓 DREAM CAMPUS </h1>
+<p>Your Future Begins Here</p>
+ 
+    </header>
+
+    <section class="hero">
+
+        <h1>Find Your Dream College</h1>
+
+        <p>
+
+            Discover colleges based on Marks, Budget,
+            Location, Placements, Scholarships and
+            Hostel Facilities.
+
+        </p>
+
+    </section>
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <h2>Student Details</h2>
+
+            <input type="text"
+                   id="name"
+                   placeholder="Enter Your Name">
+
+            <input type="number"
+                   id="marks"
+                   placeholder="Enter Your Marks">
+
+            <input type="number"
+                   id="budget"
+                   placeholder="Enter Your Budget">
+
+            <select id="course">
+
+                <option>Select Course</option>
+                <option>Computer Science</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+                <option>Electrical</option>
+                <option>Electronics</option>
+                <option>Artificial Intelligence</option>
+
+            </select>
+
+            <select id="location">
+
+                <option>Select Location</option>
+                <option>Coimbatore</option>
+                <option>Chennai</option>
+                <option>Erode</option>
+                
+            </select>
+
+            <button onclick="findCollege()">
+
+                Find My College
+
+            </button>
+
+        </div>
+
+        <div class="result-box">
+
+            <h2>Top Recommended Colleges</h2>
+
+            <div id="result">
+
+                <div class="college-card">
+
+                    <h3>🏆 Recommendation Appears Here</h3>
+
+                    <p>
+
+                        Enter your details and click
+                        "Find My College"
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        Smart College Recommendation Platform
+
+        <br>
+
+        Your Future Begins Here
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
